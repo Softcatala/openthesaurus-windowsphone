@@ -5,7 +5,7 @@
     <Language code="ca" />
   </Languages>
   <App xmlns="" ProductID="{301ce760-973b-471f-99c7-2b887136dec9}" Title="Sinònims i Associacions" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Bernat Mut" Description="Openthesaurus Català és una aplicació per sinònims i associacions. Permet trobar paraules o expressions amb significats similars a la paraula desitjada." Publisher="BitsDeLocos" PublisherID="{5b296d2f-cc2c-46c9-88b6-2f61223b13a0}">
-    <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
+    <IconPath IsRelative="true" IsResource="false">Assets\openthesaurusde.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
       <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
@@ -21,9 +21,9 @@
     <Tokens>
       <PrimaryToken TokenID="SinonimsToken" TaskName="_default">
         <TemplateFlip>
-          <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileSmall.png</SmallImageURI>
+          <SmallImageURI IsRelative="true" IsResource="false">Assets\openthesaurusde.png</SmallImageURI>
           <Count>0</Count>
-          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\openthesaurusde.png</BackgroundImageURI>
           <Title>Sinònims</Title>
           <BackContent>
           </BackContent>
@@ -31,10 +31,13 @@
           </BackBackgroundImageURI>
           <BackTitle>
           </BackTitle>
+          <LargeBackgroundImageURI IsRelative="true" IsResource="false">Assets\baixa.png</LargeBackgroundImageURI>
+          <LargeBackContent />
+          <LargeBackBackgroundImageURI IsRelative="true" IsResource="false">
+          </LargeBackBackgroundImageURI>
           <DeviceLockImageURI>
           </DeviceLockImageURI>
-          <HasLarge>
-          </HasLarge>
+          <HasLarge>True</HasLarge>
         </TemplateFlip>
       </PrimaryToken>
     </Tokens>
