@@ -4,7 +4,7 @@
   <Languages xmlns="">
     <Language code="ca" />
   </Languages>
-  <App xmlns="" ProductID="{301ce760-973b-471f-99c7-2b887136dec9}" Title="Sinònims i Associacions" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Bernat Mut" Description="Openthesaurus Català és una aplicació per sinònims i associacions. Permet trobar paraules o expressions amb significats similars a la paraula desitjada." Publisher="BitsDeLocos" PublisherID="{5b296d2f-cc2c-46c9-88b6-2f61223b13a0}">
+  <App xmlns="" ProductID="{301ce760-973b-471f-99c7-2b887136dec9}" Title="Sinònims i Associacions" RuntimeType="Silverlight" Version="1.0.0.1" Genre="apps.normal" Author="Bernat Mut" Description="Openthesaurus Català és una aplicació per sinònims i associacions. Permet trobar paraules o expressions amb significats similars a la paraula desitjada." Publisher="BitsDeLocos" PublisherID="{5b296d2f-cc2c-46c9-88b6-2f61223b13a0}">
     <IconPath IsRelative="true" IsResource="false">Assets\openthesaurusde.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
